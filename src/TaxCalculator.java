@@ -51,9 +51,7 @@ public class TaxCalculator {
         // Double ve BigDecimal aritmetiği kullanarak elde edilen sonuçları karşılaştır
         System.out.println("Double ve BigDecimal kullanarak net gelir arasındaki fark: " + netRevenueBD.subtract(new BigDecimal(netRevenue)));
 
-        // Arslan adını kod satırlarına ekle
-        System.out.println("Arslan, bu kodu yazdı.");
-        System.out.println("Arslan, bu kodu düzenledi.");
+
     }
 }
 
